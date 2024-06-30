@@ -127,6 +127,7 @@ body {
   border-radius: 10px;
   display: flex;
   justify-content: center;
+  box-shadow: 9px 11px 10px 0px rgba(34, 60, 80, 0.2);
 }
 .image {
   width: 100%;
@@ -141,9 +142,50 @@ body {
 .article-information {
   padding: 35px;
 }
-.article-title{
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 25px;
-    text-align: left;
+.article-title {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 25px;
+  text-align: left;
+  margin-bottom: 24px;
+  color: #3f4859;
+}
+.article-descr {
+  font-size: 16px;
+  color: #72767f;
+  margin-bottom: 20px;
+}
+.author-information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.author-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+}
+.author-block {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.author-name {
+  color: #3f4859;
+  font-size: 16px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.article-date {
+  font-size: 16px;
+  color: #72767f;
+}
+.share {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-color: #e8f1f8;
+  border-radius: 100%;
+  padding-top: 5px;
+  box-shadow: 9px 11px 10px 0px rgba(34, 60, 80, 0.2);
 }
